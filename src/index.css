@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+
+  --color-pine-950: #0F2318;
+  --color-pine-900: #162D1F;
+  --color-pine-800: #1C3B28;
+  --color-pine-700: #234D33;
+  --color-pine-600: #2B5F3A;
+  --color-pine-500: #3A7A4F;
+  --color-pine-400: #57976B;
+  --color-pine-300: #7DB899;
+  --color-pine-200: #A8D4BC;
+  --color-pine-100: #D4EDE0;
+  --color-pine-50: #EEF8F2;
+
+  --color-gold-950: #5A3800;
+  --color-gold-900: #7A4D00;
+  --color-gold-800: #9A6200;
+  --color-gold-700: #BA7700;
+  --color-gold-600: #D48C0A;
+  --color-gold-500: #E8A020;
+  --color-gold-400: #F2B840;
+  --color-gold-300: #F7CE70;
+  --color-gold-200: #FAE09A;
+  --color-gold-100: #FCF0CC;
+  --color-gold-50: #FEF8EA;
+
+  --color-paper: #F5F1E8;
+  --color-paper-dark: #EBE6D8;
+  --color-paper-darker: #DDD7C8;
+
+  --color-charcoal: #1C2219;
+  --color-charcoal-800: #2C3528;
+  --color-charcoal-700: #3D4840;
+  --color-charcoal-600: #576058;
+  --color-charcoal-400: #8A9090;
+  --color-charcoal-300: #B0B6B2;
+  --color-charcoal-200: #D4D9D5;
+  --color-charcoal-100: #ECEEED;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover {
+  scrollbar-color: #D4D9D5 transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  background-color: #F5F1E8;
+  color: #1C2219;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.register-step-active {
+  background-color: #2B5F3A;
+  color: white;
+}
+
+.register-step-done {
+  background-color: #2B5F3A;
+  color: white;
+}
+
+.register-step-pending {
+  background-color: #DDD7C8;
+  color: #8A9090;
+}
